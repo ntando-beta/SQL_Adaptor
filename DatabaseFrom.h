@@ -1,9 +1,15 @@
-#pragma once
+#if !defined(DATABASEFROM_H)
+#define DATABASEFROM_H
+
+
 #include "ORM.h"
 #include "SQLSelect.h"
 
-class DatabaseSelect : public ORM{
+class DatabaseFrom : public ORM{
 public:
-    DatabaseSelect();
-    void executeQuery(const std::string& query) override;
+    DatabaseFrom();
+    void executeQuery(const std::string& query);
 };
+
+#include "DatabaseFrom.cpp"
+#endif
