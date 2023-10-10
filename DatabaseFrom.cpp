@@ -1,7 +1,9 @@
 #include "DatabaseFrom.h"
 #include <iostream>
 
-DatabaseFrom::DatabaseFrom(){}
+#include "DatabaseFrom.h"
+
+DatabaseFrom::DatabaseFrom() {}
 
 void DatabaseFrom::executeQuery(const std::string& query) {
     std::cout << "Executing SQL query for FROM-based database: " << query << std::endl;
