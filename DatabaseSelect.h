@@ -2,6 +2,7 @@
 #define DATABASESELECT_H
 
 #include "ORM.h"
+#include "Database.h"
 
 class DatabaseSelect : public ORM{
 public:
