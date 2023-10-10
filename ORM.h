@@ -5,7 +5,7 @@
 
 class ORM {
 public:
-    void executeQuery(const std::string& query);
+    virtual void executeQuery(const std::string& query) = 0;
 };
 
 #endif // ORM_H
