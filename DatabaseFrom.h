@@ -9,6 +9,7 @@ class DatabaseFrom : public ORM{
 public:
     DatabaseFrom();
     void executeQuery(const std::string& query);
+
 };
 
 #include "DatabaseFrom.cpp"
